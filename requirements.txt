@@ -1,0 +1,13 @@
+# Pinned to the versions this demo was run and checked with (2026-10-15).
+# Latest on PyPI at that date, checked via https://pypi.org/pypi/<pkg>/json:
+#   yfinance 1.7.0, hmmlearn 0.3.3, pandas 3.0.6, numpy 2.5.4, scikit-learn 1.9.1, scipy 1.18.1
+# The newer yfinance/numpy/scipy releases were not used for the recorded run; upgrade and re-run
+# main.py to confirm before relying on them.
+yfinance==1.2.0
+hmmlearn==0.3.3
+pandas==3.0.6
+numpy==2.4.6
+scikit-learn==1.9.1
+scipy==1.17.1
+# Tests only
+pytest==9.1.1

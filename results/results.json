@@ -1,0 +1,1435 @@
+{
+ "generated_utc": "2026-10-15T19:17:52+00:00",
+ "instruments": {
+  "ES": {
+   "oos_start": "2008-01-02",
+   "oos_end": "2026-10-14",
+   "oos_days": 4727,
+   "n_refits": 19,
+   "k_selected_by_year": {
+    "2008": 4,
+    "2009": 4,
+    "2010": 4,
+    "2011": 4,
+    "2012": 4,
+    "2013": 4,
+    "2014": 4,
+    "2015": 4,
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 4,
+    "2021": 4,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4,
+    "2025": 4,
+    "2026": 4
+   },
+   "strategy_metrics_net": {
+    "buy_and_hold": {
+     "n_days": 4727,
+     "cagr": 0.09252475860076825,
+     "ann_vol": 0.19956333036593704,
+     "sharpe": 0.5434016392196604,
+     "max_drawdown": -0.5424870854398791,
+     "total_return": 4.258860538995243,
+     "pct_time_in_market": 1.0,
+     "pct_time_long": 1.0,
+     "pct_time_short": 0.0,
+     "annual_turnover": 0.0
+    },
+    "trend": {
+     "n_days": 4727,
+     "cagr": 0.037776467113219026,
+     "ann_vol": 0.19964547561924437,
+     "sharpe": 0.2860802870454715,
+     "max_drawdown": -0.4339797200302187,
+     "total_return": 1.0048154528581157,
+     "pct_time_in_market": 1.0,
+     "pct_time_long": 0.7581975883224032,
+     "pct_time_short": 0.24180241167759678,
+     "annual_turnover": 1.812566109583245
+    },
+    "meanrev": {
+     "n_days": 4727,
+     "cagr": 0.014092996770900257,
+     "ann_vol": 0.12043819859549755,
+     "sharpe": 0.17598263435790046,
+     "max_drawdown": -0.22528884105470126,
+     "total_return": 0.3001895691736971,
+     "pct_time_in_market": 0.31351808758197586,
+     "pct_time_long": 0.12735350116352867,
+     "pct_time_short": 0.18616458641844721,
+     "annual_turnover": 65.03913687328115
+    },
+    "hmm_switch": {
+     "n_days": 4727,
+     "cagr": 0.05121790552314609,
+     "ann_vol": 0.15473378272992352,
+     "sharpe": 0.3999515516625681,
+     "max_drawdown": -0.32482774590645325,
+     "total_return": 1.5521795296509175,
+     "pct_time_in_market": 0.7086947323884071,
+     "pct_time_long": 0.5037021366617305,
+     "pct_time_short": 0.20499259572667655,
+     "annual_turnover": 32.67950074042733
+    },
+    "rules_switch": {
+     "n_days": 4727,
+     "cagr": 0.060767229936234735,
+     "ann_vol": 0.14676328325193624,
+     "sharpe": 0.47507695178660064,
+     "max_drawdown": -0.22793939734850477,
+     "total_return": 2.023988321933265,
+     "pct_time_in_market": 0.6505182991326423,
+     "pct_time_long": 0.48233551935688596,
+     "pct_time_short": 0.1681827797757563,
+     "annual_turnover": 40.30294055426274
+    },
+    "hmm_switch_incl_long": {
+     "n_days": 4727,
+     "cagr": 0.04208098081110645,
+     "ann_vol": 0.17823161682050462,
+     "sharpe": 0.32033924975361305,
+     "max_drawdown": -0.4218551140512853,
+     "total_return": 1.1666792789562552,
+     "pct_time_in_market": 0.8248360482335519,
+     "pct_time_long": 0.6830971017558706,
+     "pct_time_short": 0.1417389464776814,
+     "annual_turnover": 19.991537973344613
+    }
+   },
+   "sharpe_gross_of_costs": {
+    "buy_and_hold": 0.5434578435701842,
+    "trend": 0.2874810132369139,
+    "meanrev": 0.25318124400769465,
+    "hmm_switch": 0.4344011664125784,
+    "rules_switch": 0.5185380963599461,
+    "hmm_switch_incl_long": 0.3392877218729379
+   },
+   "sharpe_at_2x_costs": {
+    "buy_and_hold": 0.5433454052845273,
+    "trend": 0.2846787466758656,
+    "meanrev": 0.09872653740729183,
+    "hmm_switch": 0.36548737560660693,
+    "rules_switch": 0.43158124352885685,
+    "hmm_switch_incl_long": 0.3013861518580927
+   },
+   "bootstrap_sharpe_differences": {
+    "hmm_switch_minus_buy_and_hold": {
+     "point": -0.14345008755709232,
+     "ci95_low": -0.6405386488265176,
+     "ci95_high": 0.2952751807436602,
+     "share_boot_draws_le_0": 0.7195,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "rules_switch_minus_buy_and_hold": {
+     "point": -0.0683246874330598,
+     "ci95_low": -0.5529987263306206,
+     "ci95_high": 0.38798116622423695,
+     "share_boot_draws_le_0": 0.632,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "hmm_switch_minus_trend": {
+     "point": 0.11387126461709662,
+     "ci95_low": -0.1934822578833719,
+     "ci95_high": 0.4255761317462235,
+     "share_boot_draws_le_0": 0.2305,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "hmm_switch_minus_rules_switch": {
+     "point": -0.07512540012403252,
+     "ci95_low": -0.3807111178001766,
+     "ci95_high": 0.23963131950738975,
+     "share_boot_draws_le_0": 0.6805,
+     "reps": 2000,
+     "mean_block_days": 20
+    }
+   },
+   "hmm_regime_stats_oos": {
+    "per_regime": {
+     "low_vol": {
+      "share_of_days": 0.3078062195895917,
+      "n_episodes": 45,
+      "mean_duration_days": 32.333333333333336,
+      "median_duration_days": 21.0
+     },
+     "mid_vol": {
+      "share_of_days": 0.5557436005923418,
+      "n_episodes": 61,
+      "mean_duration_days": 43.0655737704918,
+      "median_duration_days": 29.0
+     },
+     "high_vol": {
+      "share_of_days": 0.13645017981806642,
+      "n_episodes": 16,
+      "mean_duration_days": 40.3125,
+      "median_duration_days": 22.0
+     }
+    },
+    "total_episodes": 122,
+    "empirical_daily_transition_matrix": {
+     "order": [
+      "low_vol",
+      "mid_vol",
+      "high_vol"
+     ],
+     "matrix": [
+      [
+       0.9691,
+       0.0302,
+       0.0007
+      ],
+      [
+       0.0171,
+       0.9772,
+       0.0057
+      ],
+      [
+       0.0,
+       0.0248,
+       0.9752
+      ]
+     ]
+    }
+   },
+   "rules_regime_stats_oos": {
+    "per_regime": {
+     "lowvol_up": {
+      "share_of_days": 0.3075946689232071,
+      "n_episodes": 79,
+      "mean_duration_days": 18.40506329113924,
+      "median_duration_days": 10.0
+     },
+     "lowvol_down": {
+      "share_of_days": 0.017558705309921725,
+      "n_episodes": 21,
+      "mean_duration_days": 3.9523809523809526,
+      "median_duration_days": 2.0
+     },
+     "midvol_up": {
+      "share_of_days": 0.3012481489316691,
+      "n_episodes": 155,
+      "mean_duration_days": 9.187096774193549,
+      "median_duration_days": 6.0
+     },
+     "midvol_down": {
+      "share_of_days": 0.06558070657922573,
+      "n_episodes": 75,
+      "mean_duration_days": 4.133333333333334,
+      "median_duration_days": 3.0
+     },
+     "highvol_up": {
+      "share_of_days": 0.11529511317960651,
+      "n_episodes": 63,
+      "mean_duration_days": 8.65079365079365,
+      "median_duration_days": 5.0
+     },
+     "highvol_down": {
+      "share_of_days": 0.1927226570763698,
+      "n_episodes": 41,
+      "mean_duration_days": 22.21951219512195,
+      "median_duration_days": 7.0
+     }
+    },
+    "total_episodes": 434,
+    "empirical_daily_transition_matrix": {
+     "order": [
+      "lowvol_up",
+      "lowvol_down",
+      "midvol_up",
+      "midvol_down",
+      "highvol_up",
+      "highvol_down"
+     ],
+     "matrix": [
+      [
+       0.9457,
+       0.0083,
+       0.0433,
+       0.0028,
+       0.0,
+       0.0
+      ],
+      [
+       0.1205,
+       0.747,
+       0.0361,
+       0.0964,
+       0.0,
+       0.0
+      ],
+      [
+       0.0478,
+       0.0007,
+       0.8918,
+       0.0344,
+       0.0211,
+       0.0042
+      ],
+      [
+       0.0032,
+       0.0258,
+       0.1484,
+       0.7581,
+       0.0129,
+       0.0516
+      ],
+      [
+       0.0,
+       0.0,
+       0.0771,
+       0.0055,
+       0.8844,
+       0.033
+      ],
+      [
+       0.0,
+       0.0,
+       0.0011,
+       0.0121,
+       0.0318,
+       0.955
+      ]
+     ]
+    }
+   },
+   "hmm_sleeve_choice_by_year": {
+    "2008": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2009": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2010": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2011": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2012": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2013": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2014": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2015": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2016": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2017": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2018": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2019": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2020": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2021": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2022": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2023": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2024": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2025": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2026": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    }
+   },
+   "rules_sleeve_choice_by_year": {
+    "2008": {
+     "lowvol_up": "trend",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2009": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2010": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2011": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2012": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2013": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2014": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2015": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2016": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2017": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2018": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "meanrev",
+     "midvol_up": "flat",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2019": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "meanrev",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2020": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "meanrev",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2021": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2022": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "meanrev",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2023": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2024": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2025": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2026": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "meanrev",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    }
+   },
+   "overfit_diagnostic": {
+    "mean_train_sharpe_hmm_switch": 0.5349890501030536,
+    "mean_oos_year_sharpe_hmm_switch": 0.46800559175308326,
+    "full_oos_sharpe_hmm_switch": 0.3999515516625681,
+    "sleeve_choice_changes_across_refits": 1,
+    "possible_choice_slots": 54
+   },
+   "per_regime_tables": {
+    "hmm": "results/ES_per_regime_hmm.csv",
+    "rules": "results/ES_per_regime_rules.csv"
+   },
+   "data": {
+    "root": "ES",
+    "yfinance_version": "1.2.0",
+    "ticker": "ES=F",
+    "is_proxy": false,
+    "raw_csv": "data/ES_F_raw.csv",
+    "raw_rows": 6584,
+    "raw_start": "2000-09-18",
+    "raw_end": "2026-10-15",
+    "dropped_nan_or_nonpositive": 0,
+    "dropped_partial_today_bar": 1,
+    "abs_daily_move_gt_15pct": {},
+    "clean_rows": 6583,
+    "clean_start": "2000-09-18",
+    "clean_end": "2026-10-14"
+   },
+   "lookahead_check": {
+    "dates_checked": [
+     {
+      "date": "2010-06-07",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2010-07-12",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2017-05-19",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2022-12-15",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     }
+    ],
+    "all_pass": true
+   }
+  },
+  "NQ": {
+   "oos_start": "2008-01-02",
+   "oos_end": "2026-10-14",
+   "oos_days": 4727,
+   "n_refits": 19,
+   "k_selected_by_year": {
+    "2008": 4,
+    "2009": 4,
+    "2010": 4,
+    "2011": 4,
+    "2012": 4,
+    "2013": 4,
+    "2014": 4,
+    "2015": 4,
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 4,
+    "2021": 4,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4,
+    "2025": 4,
+    "2026": 4
+   },
+   "strategy_metrics_net": {
+    "buy_and_hold": {
+     "n_days": 4727,
+     "cagr": 0.15253153139953413,
+     "ann_vol": 0.22617919856834784,
+     "sharpe": 0.7409497497688594,
+     "max_drawdown": -0.5062065875839848,
+     "total_return": 13.337703817796589,
+     "pct_time_in_market": 1.0,
+     "pct_time_long": 1.0,
+     "pct_time_short": 0.0,
+     "annual_turnover": 0.0
+    },
+    "trend": {
+     "n_days": 4727,
+     "cagr": 0.08077938042298993,
+     "ann_vol": 0.22632936823899627,
+     "sharpe": 0.4568789957610115,
+     "max_drawdown": -0.3986526798644602,
+     "total_return": 3.2937568773891366,
+     "pct_time_in_market": 1.0,
+     "pct_time_long": 0.7876031309498625,
+     "pct_time_short": 0.21239686905013752,
+     "annual_turnover": 2.3456737888724346
+    },
+    "meanrev": {
+     "n_days": 4727,
+     "cagr": 0.003407266622544869,
+     "ann_vol": 0.13558177273428293,
+     "sharpe": 0.09250071012475869,
+     "max_drawdown": -0.3365491836625699,
+     "total_return": 0.06588416100308692,
+     "pct_time_in_market": 0.33425005288766657,
+     "pct_time_long": 0.12608419716522107,
+     "pct_time_short": 0.20816585572244553,
+     "annual_turnover": 64.93251533742331
+    },
+    "hmm_switch": {
+     "n_days": 4727,
+     "cagr": 0.04679138436348751,
+     "ann_vol": 0.18510330261603425,
+     "sharpe": 0.33948500187070746,
+     "max_drawdown": -0.4084278244670071,
+     "total_return": 1.357953498316831,
+     "pct_time_in_market": 0.7374656230167125,
+     "pct_time_long": 0.5775333192299555,
+     "pct_time_short": 0.15993230378675694,
+     "annual_turnover": 17.325999576898667
+    },
+    "rules_switch": {
+     "n_days": 4727,
+     "cagr": 0.08999641855728902,
+     "ann_vol": 0.1750421299202428,
+     "sharpe": 0.5797398998796969,
+     "max_drawdown": -0.23716729032242523,
+     "total_return": 4.03520439873931,
+     "pct_time_in_market": 0.7080600803892533,
+     "pct_time_long": 0.5948804738734927,
+     "pct_time_short": 0.11317960651576052,
+     "annual_turnover": 29.267611592976515
+    },
+    "hmm_switch_incl_long": {
+     "n_days": 4727,
+     "cagr": 0.08009453809301514,
+     "ann_vol": 0.21092201638750768,
+     "sharpe": 0.47070978098853117,
+     "max_drawdown": -0.4893519358706033,
+     "total_return": 3.2430070696755466,
+     "pct_time_in_market": 0.907129257457161,
+     "pct_time_long": 0.8043156335942458,
+     "pct_time_short": 0.10281362386291516,
+     "annual_turnover": 10.3955997461392
+    }
+   },
+   "sharpe_gross_of_costs": {
+    "buy_and_hold": 0.7409941200706006,
+    "trend": 0.457944281823262,
+    "meanrev": 0.13673441569707998,
+    "hmm_switch": 0.3473686893312845,
+    "rules_switch": 0.5974400034008547,
+    "hmm_switch_incl_long": 0.4744595946497469
+   },
+   "sharpe_at_2x_costs": {
+    "buy_and_hold": 0.7409053552499414,
+    "trend": 0.4558130620213038,
+    "meanrev": 0.04826636579088334,
+    "hmm_switch": 0.33159816076650767,
+    "rules_switch": 0.5620257502699613,
+    "hmm_switch_incl_long": 0.46695844413134296
+   },
+   "bootstrap_sharpe_differences": {
+    "hmm_switch_minus_buy_and_hold": {
+     "point": -0.40146474789815195,
+     "ci95_low": -0.9183603662760249,
+     "ci95_high": 0.07457499015152873,
+     "share_boot_draws_le_0": 0.9485,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "rules_switch_minus_buy_and_hold": {
+     "point": -0.16120984988916254,
+     "ci95_low": -0.6089312331176528,
+     "ci95_high": 0.26775077546675097,
+     "share_boot_draws_le_0": 0.7715,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "hmm_switch_minus_trend": {
+     "point": -0.11739399389030403,
+     "ci95_low": -0.39153460226234055,
+     "ci95_high": 0.16259563636743984,
+     "share_boot_draws_le_0": 0.793,
+     "reps": 2000,
+     "mean_block_days": 20
+    },
+    "hmm_switch_minus_rules_switch": {
+     "point": -0.24025489800898941,
+     "ci95_low": -0.518091924120705,
+     "ci95_high": 0.02459919483093845,
+     "share_boot_draws_le_0": 0.965,
+     "reps": 2000,
+     "mean_block_days": 20
+    }
+   },
+   "hmm_regime_stats_oos": {
+    "per_regime": {
+     "low_vol": {
+      "share_of_days": 0.3126718849164375,
+      "n_episodes": 48,
+      "mean_duration_days": 30.791666666666668,
+      "median_duration_days": 19.5
+     },
+     "mid_vol": {
+      "share_of_days": 0.5419928072773429,
+      "n_episodes": 67,
+      "mean_duration_days": 38.23880597014925,
+      "median_duration_days": 22.0
+     },
+     "high_vol": {
+      "share_of_days": 0.1453353078062196,
+      "n_episodes": 18,
+      "mean_duration_days": 38.166666666666664,
+      "median_duration_days": 22.5
+     }
+    },
+    "total_episodes": 133,
+    "empirical_daily_transition_matrix": {
+     "order": [
+      "low_vol",
+      "mid_vol",
+      "high_vol"
+     ],
+     "matrix": [
+      [
+       0.9675,
+       0.0325,
+       0.0
+      ],
+      [
+       0.0187,
+       0.9742,
+       0.007
+      ],
+      [
+       0.0,
+       0.0262,
+       0.9738
+      ]
+     ]
+    }
+   },
+   "rules_regime_stats_oos": {
+    "per_regime": {
+     "lowvol_up": {
+      "share_of_days": 0.3357309075523588,
+      "n_episodes": 79,
+      "mean_duration_days": 20.088607594936708,
+      "median_duration_days": 10.0
+     },
+     "lowvol_down": {
+      "share_of_days": 0.01692405331076793,
+      "n_episodes": 24,
+      "mean_duration_days": 3.3333333333333335,
+      "median_duration_days": 2.0
+     },
+     "midvol_up": {
+      "share_of_days": 0.2663422889782103,
+      "n_episodes": 140,
+      "mean_duration_days": 8.992857142857142,
+      "median_duration_days": 6.0
+     },
+     "midvol_down": {
+      "share_of_days": 0.08694732388407024,
+      "n_episodes": 75,
+      "mean_duration_days": 5.48,
+      "median_duration_days": 3.0
+     },
+     "highvol_up": {
+      "share_of_days": 0.12100698117199069,
+      "n_episodes": 79,
+      "mean_duration_days": 7.2405063291139244,
+      "median_duration_days": 4.0
+     },
+     "highvol_down": {
+      "share_of_days": 0.17304844510260206,
+      "n_episodes": 62,
+      "mean_duration_days": 13.193548387096774,
+      "median_duration_days": 3.0
+     }
+    },
+    "total_episodes": 459,
+    "empirical_daily_transition_matrix": {
+     "order": [
+      "lowvol_up",
+      "lowvol_down",
+      "midvol_up",
+      "midvol_down",
+      "highvol_up",
+      "highvol_down"
+     ],
+     "matrix": [
+      [
+       0.9502,
+       0.0126,
+       0.0334,
+       0.0025,
+       0.0006,
+       0.0006
+      ],
+      [
+       0.2,
+       0.7,
+       0.0,
+       0.1,
+       0.0,
+       0.0
+      ],
+      [
+       0.0493,
+       0.0,
+       0.8895,
+       0.035,
+       0.0254,
+       0.0008
+      ],
+      [
+       0.0024,
+       0.0097,
+       0.1217,
+       0.8175,
+       0.0073,
+       0.0414
+      ],
+      [
+       0.0,
+       0.0,
+       0.0629,
+       0.0,
+       0.8619,
+       0.0752
+      ],
+      [
+       0.0,
+       0.0,
+       0.0012,
+       0.022,
+       0.0526,
+       0.9242
+      ]
+     ]
+    }
+   },
+   "hmm_sleeve_choice_by_year": {
+    "2008": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2009": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "flat"
+    },
+    "2010": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2011": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2012": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2013": {
+     "low_vol": "flat",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2014": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2015": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2016": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2017": {
+     "low_vol": "meanrev",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2018": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2019": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2020": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2021": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2022": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2023": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2024": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2025": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    },
+    "2026": {
+     "low_vol": "trend",
+     "mid_vol": "trend",
+     "high_vol": "meanrev"
+    }
+   },
+   "rules_sleeve_choice_by_year": {
+    "2008": {
+     "lowvol_up": "flat",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2009": {
+     "lowvol_up": "flat",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2010": {
+     "lowvol_up": "flat",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2011": {
+     "lowvol_up": "flat",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2012": {
+     "lowvol_up": "flat",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2013": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2014": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2015": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2016": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2017": {
+     "lowvol_up": "meanrev",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2018": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2019": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2020": {
+     "lowvol_up": "trend",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "meanrev",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2021": {
+     "lowvol_up": "trend",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2022": {
+     "lowvol_up": "trend",
+     "lowvol_down": "flat",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2023": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2024": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "flat",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2025": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    },
+    "2026": {
+     "lowvol_up": "trend",
+     "lowvol_down": "meanrev",
+     "midvol_up": "trend",
+     "midvol_down": "trend",
+     "highvol_up": "trend",
+     "highvol_down": "meanrev"
+    }
+   },
+   "overfit_diagnostic": {
+    "mean_train_sharpe_hmm_switch": 0.4496910686474074,
+    "mean_oos_year_sharpe_hmm_switch": 0.48887959137519543,
+    "full_oos_sharpe_hmm_switch": 0.33948500187070746,
+    "sleeve_choice_changes_across_refits": 5,
+    "possible_choice_slots": 54
+   },
+   "per_regime_tables": {
+    "hmm": "results/NQ_per_regime_hmm.csv",
+    "rules": "results/NQ_per_regime_rules.csv"
+   },
+   "data": {
+    "root": "NQ",
+    "yfinance_version": "1.2.0",
+    "ticker": "NQ=F",
+    "is_proxy": false,
+    "raw_csv": "data/NQ_F_raw.csv",
+    "raw_rows": 6584,
+    "raw_start": "2000-09-18",
+    "raw_end": "2026-10-15",
+    "dropped_nan_or_nonpositive": 0,
+    "dropped_partial_today_bar": 1,
+    "abs_daily_move_gt_15pct": {
+     "2001-01-03": 0.1670126874279123
+    },
+    "clean_rows": 6583,
+    "clean_start": "2000-09-18",
+    "clean_end": "2026-10-14"
+   },
+   "lookahead_check": {
+    "dates_checked": [
+     {
+      "date": "2010-06-07",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2010-07-12",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2017-05-19",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     },
+     {
+      "date": "2022-12-15",
+      "features_identical": true,
+      "filtered_probs_identical": true,
+      "signals_identical": true
+     }
+    ],
+    "all_pass": true
+   }
+  }
+ },
+ "summary": {
+  "ES": {
+   "ticker": "ES=F",
+   "is_proxy": false,
+   "data_range": "2000-09-18 to 2026-10-14",
+   "data_rows": 6583,
+   "oos_range": "2008-01-02 to 2026-10-14",
+   "oos_days": 4727,
+   "sharpe_net": {
+    "buy_and_hold": 0.5434016392196604,
+    "trend": 0.2860802870454715,
+    "meanrev": 0.17598263435790046,
+    "hmm_switch": 0.3999515516625681,
+    "rules_switch": 0.47507695178660064,
+    "hmm_switch_incl_long": 0.32033924975361305
+   },
+   "cagr_net": {
+    "buy_and_hold": 0.09252475860076825,
+    "trend": 0.037776467113219026,
+    "meanrev": 0.014092996770900257,
+    "hmm_switch": 0.05121790552314609,
+    "rules_switch": 0.060767229936234735,
+    "hmm_switch_incl_long": 0.04208098081110645
+   },
+   "max_drawdown": {
+    "buy_and_hold": -0.5424870854398791,
+    "trend": -0.4339797200302187,
+    "meanrev": -0.22528884105470126,
+    "hmm_switch": -0.32482774590645325,
+    "rules_switch": -0.22793939734850477,
+    "hmm_switch_incl_long": -0.4218551140512853
+   },
+   "ann_vol": {
+    "buy_and_hold": 0.19956333036593704,
+    "trend": 0.19964547561924437,
+    "meanrev": 0.12043819859549755,
+    "hmm_switch": 0.15473378272992352,
+    "rules_switch": 0.14676328325193624,
+    "hmm_switch_incl_long": 0.17823161682050462
+   },
+   "pct_time_in_market": {
+    "buy_and_hold": 1.0,
+    "trend": 1.0,
+    "meanrev": 0.31351808758197586,
+    "hmm_switch": 0.7086947323884071,
+    "rules_switch": 0.6505182991326423,
+    "hmm_switch_incl_long": 0.8248360482335519
+   },
+   "hmm_switch_vs_buy_and_hold_sharpe_diff": {
+    "point": -0.14345008755709232,
+    "ci95_low": -0.6405386488265176,
+    "ci95_high": 0.2952751807436602,
+    "share_boot_draws_le_0": 0.7195,
+    "reps": 2000,
+    "mean_block_days": 20
+   },
+   "verdict_hmm_switch": "not statistically distinguishable from buy-and-hold on Sharpe (95% bootstrap CI spans 0)",
+   "verdict_rules_switch": "not statistically distinguishable from buy-and-hold on Sharpe (95% bootstrap CI spans 0)",
+   "k_selected_by_year": {
+    "2008": 4,
+    "2009": 4,
+    "2010": 4,
+    "2011": 4,
+    "2012": 4,
+    "2013": 4,
+    "2014": 4,
+    "2015": 4,
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 4,
+    "2021": 4,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4,
+    "2025": 4,
+    "2026": 4
+   },
+   "lookahead_check_all_pass": true,
+   "flags": [
+    "HMM regimes with fewer than 30 OOS episodes: ['high_vol']; per-regime Sharpe is noisy",
+    "BIC picked K=4 (the upper bound of the search) at every refit: with ~1.6k-4.7k daily observations BIC keeps rewarding extra states, so K is boundary-limited, not a clear optimum",
+    "Sharpe difference vs buy-and-hold not significant at 95%"
+   ]
+  },
+  "NQ": {
+   "ticker": "NQ=F",
+   "is_proxy": false,
+   "data_range": "2000-09-18 to 2026-10-14",
+   "data_rows": 6583,
+   "oos_range": "2008-01-02 to 2026-10-14",
+   "oos_days": 4727,
+   "sharpe_net": {
+    "buy_and_hold": 0.7409497497688594,
+    "trend": 0.4568789957610115,
+    "meanrev": 0.09250071012475869,
+    "hmm_switch": 0.33948500187070746,
+    "rules_switch": 0.5797398998796969,
+    "hmm_switch_incl_long": 0.47070978098853117
+   },
+   "cagr_net": {
+    "buy_and_hold": 0.15253153139953413,
+    "trend": 0.08077938042298993,
+    "meanrev": 0.003407266622544869,
+    "hmm_switch": 0.04679138436348751,
+    "rules_switch": 0.08999641855728902,
+    "hmm_switch_incl_long": 0.08009453809301514
+   },
+   "max_drawdown": {
+    "buy_and_hold": -0.5062065875839848,
+    "trend": -0.3986526798644602,
+    "meanrev": -0.3365491836625699,
+    "hmm_switch": -0.4084278244670071,
+    "rules_switch": -0.23716729032242523,
+    "hmm_switch_incl_long": -0.4893519358706033
+   },
+   "ann_vol": {
+    "buy_and_hold": 0.22617919856834784,
+    "trend": 0.22632936823899627,
+    "meanrev": 0.13558177273428293,
+    "hmm_switch": 0.18510330261603425,
+    "rules_switch": 0.1750421299202428,
+    "hmm_switch_incl_long": 0.21092201638750768
+   },
+   "pct_time_in_market": {
+    "buy_and_hold": 1.0,
+    "trend": 1.0,
+    "meanrev": 0.33425005288766657,
+    "hmm_switch": 0.7374656230167125,
+    "rules_switch": 0.7080600803892533,
+    "hmm_switch_incl_long": 0.907129257457161
+   },
+   "hmm_switch_vs_buy_and_hold_sharpe_diff": {
+    "point": -0.40146474789815195,
+    "ci95_low": -0.9183603662760249,
+    "ci95_high": 0.07457499015152873,
+    "share_boot_draws_le_0": 0.9485,
+    "reps": 2000,
+    "mean_block_days": 20
+   },
+   "verdict_hmm_switch": "not statistically distinguishable from buy-and-hold on Sharpe (95% bootstrap CI spans 0)",
+   "verdict_rules_switch": "not statistically distinguishable from buy-and-hold on Sharpe (95% bootstrap CI spans 0)",
+   "k_selected_by_year": {
+    "2008": 4,
+    "2009": 4,
+    "2010": 4,
+    "2011": 4,
+    "2012": 4,
+    "2013": 4,
+    "2014": 4,
+    "2015": 4,
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 4,
+    "2021": 4,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4,
+    "2025": 4,
+    "2026": 4
+   },
+   "lookahead_check_all_pass": true,
+   "flags": [
+    "HMM regimes with fewer than 30 OOS episodes: ['high_vol']; per-regime Sharpe is noisy",
+    "BIC picked K=4 (the upper bound of the search) at every refit: with ~1.6k-4.7k daily observations BIC keeps rewarding extra states, so K is boundary-limited, not a clear optimum",
+    "Sharpe difference vs buy-and-hold not significant at 95%"
+   ]
+  },
+  "strategies_tested_per_instrument": [
+   "buy_and_hold",
+   "trend",
+   "meanrev",
+   "hmm_switch",
+   "rules_switch",
+   "hmm_switch_incl_long"
+  ],
+  "multiple_testing_note": "6 strategy variants x 2 instruments reported; no parameter was tuned on OOS data, but the variants were designed by hand, so the best OOS figure carries selection optimism."
+ },
+ "environment": {
+  "python": "3.11.14",
+  "pandas": "3.0.6",
+  "numpy": "2.4.6",
+  "hmmlearn": "0.3.3",
+  "scipy": "1.17.1",
+  "scikit_learn": "1.9.1"
+ },
+ "design": {
+  "walk_forward": "expanding window, yearly refit, first OOS year 2008",
+  "hmm": "GaussianHMM full covariance on standardized [r1, log_rv20, r20]; K in {2,3,4} by BIC on training window; best of 5 seeds per K; states sorted by return variance; regimes = argmax of forward-filtered probabilities; buckets low_vol / mid_vol / high_vol",
+  "rules_baseline": "20d realized vol tercile (training thresholds) x sign of 60d return, 6 regimes",
+  "sleeves": "trend: sign(MA50-MA200) long/short; meanrev: vol-scaled 5d return z-score, long z<-1, short z>1",
+  "allocation": "per regime, sleeve with best TRAINING Sharpe (>0, >= 63 training days) else flat",
+  "execution": "signal at close t, filled at close t+1 (lag 1 day), first return t+1->t+2",
+  "costs": {
+   "slippage_ticks_per_side": 1.0,
+   "commission_usd_per_side": 2.5,
+   "contracts": {
+    "ES": {
+     "multiplier": 50.0,
+     "tick_size": 0.25,
+     "tick_value": 12.5
+    },
+    "NQ": {
+     "multiplier": 20.0,
+     "tick_size": 0.25,
+     "tick_value": 5.0
+    }
+   },
+   "conversion": "(ticks x tick_value + commission) / (previous close x multiplier), per unit turnover"
+  },
+  "sharpe_definition": "mean/std x sqrt(252) of daily net returns, rf = 0 (futures returns are already approximately excess of cash)",
+  "bootstrap": "paired stationary block bootstrap (Politis and Romano 1994), mean block 20 days, 2000 reps"
+ }
+}

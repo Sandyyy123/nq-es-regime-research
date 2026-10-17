@@ -1,0 +1,307 @@
+{
+ "test_year": 2015,
+ "train_start": "2001-09-20",
+ "train_end": "2014-12-31",
+ "train_days": 3368,
+ "test_days": 252,
+ "k_selected": 4,
+ "converged": true,
+ "bic_table": [
+  {
+   "k": 2,
+   "loglik": -10868.91680125854,
+   "bic": 21908.397164399685,
+   "n_params": 21,
+   "converged": true
+  },
+  {
+   "k": 3,
+   "loglik": -9381.776238463153,
+   "bic": 19047.825080063983,
+   "n_params": 35,
+   "converged": true
+  },
+  {
+   "k": 4,
+   "loglik": -8486.02647175914,
+   "bic": 17386.278736661752,
+   "n_params": 51,
+   "converged": true
+  }
+ ],
+ "scaler_mean": {
+  "r1": 0.00020966221409676354,
+  "log_rv20": -1.9302865938373985,
+  "r20": 0.003569977285579734
+ },
+ "scaler_std": {
+  "r1": 0.012777199179246825,
+  "log_rv20": 0.5198909931066176,
+  "r20": 0.04841635676463332
+ },
+ "startprob": [
+  0.0,
+  0.0,
+  0.0,
+  1.0
+ ],
+ "transmat": [
+  [
+   0.9738773031805772,
+   0.025295286923050296,
+   0.0008274098963725074,
+   3.9335556827e-313
+  ],
+  [
+   0.03020265985451418,
+   0.9517881042227357,
+   0.018009235922750055,
+   0.0
+  ],
+  [
+   1.7471420742358198e-253,
+   0.027320942106002746,
+   0.9631688536491266,
+   0.009510204244870549
+  ],
+  [
+   0.0,
+   0.0,
+   0.01880647129323296,
+   0.9811935287067671
+  ]
+ ],
+ "means_scaled": [
+  [
+   0.03781710614922926,
+   -0.9912004932120936,
+   0.4167408966976452
+  ],
+  [
+   0.015111920808255807,
+   -0.08780858967029583,
+   0.04948093031220333
+  ],
+  [
+   -0.044603347780917235,
+   0.6464286062924411,
+   -0.36016903483584073
+  ],
+  [
+   -0.06241803857007373,
+   1.8089546724323438,
+   -0.6372922299174575
+  ]
+ ],
+ "covars_scaled": [
+  [
+   [
+    0.19879256727078337,
+    0.0012483445583608432,
+    0.04470372326326826
+   ],
+   [
+    0.0012483445583608432,
+    0.13306305255513956,
+    0.00129674667002196
+   ],
+   [
+    0.04470372326326825,
+    0.00129674667002196,
+    0.14596421437062992
+   ]
+  ],
+  [
+   [
+    0.4705479291570575,
+    0.027604149634541116,
+    0.08837568108553433
+   ],
+   [
+    0.02760414963454111,
+    0.09187431314432216,
+    0.08212375162396786
+   ],
+   [
+    0.08837568108553433,
+    0.08212375162396786,
+    0.39210168141852875
+   ]
+  ],
+  [
+   [
+    1.0375092117086042,
+    0.03707032673625228,
+    0.23604440855699388
+   ],
+   [
+    0.03707032673625228,
+    0.059462204801893716,
+    0.04448767426008648
+   ],
+   [
+    0.23604440855699385,
+    0.04448767426008648,
+    0.8395586297070314
+   ]
+  ],
+  [
+   [
+    4.377684046670422,
+    0.01694169563979076,
+    0.8311749078153342
+   ],
+   [
+    0.01694169563979078,
+    0.4531292900506728,
+    -0.5563188026562659
+   ],
+   [
+    0.8311749078153342,
+    -0.5563188026562659,
+    3.950477713007551
+   ]
+  ]
+ ],
+ "state_daily_vol_ann": [
+  0.09043488829544337,
+  0.1391354729234601,
+  0.20660076057184074,
+  0.424383159901572
+ ],
+ "rules_vol_terciles": [
+  0.10812558549658145,
+  0.17432215219501834
+ ],
+ "hmm_sleeve_choice": {
+  "low_vol": "meanrev",
+  "mid_vol": "trend",
+  "high_vol": "meanrev"
+ },
+ "hmm_incl_long_sleeve_choice": {
+  "low_vol": "meanrev",
+  "mid_vol": "trend",
+  "high_vol": "meanrev"
+ },
+ "rules_sleeve_choice": {
+  "lowvol_up": "meanrev",
+  "lowvol_down": "flat",
+  "midvol_up": "trend",
+  "midvol_down": "trend",
+  "highvol_up": "trend",
+  "highvol_down": "meanrev"
+ },
+ "hmm_train_sleeve_table": [
+  {
+   "bucket": "low_vol",
+   "sleeve": "trend",
+   "train_days": 1163,
+   "train_sharpe": 0.13361979467699858
+  },
+  {
+   "bucket": "low_vol",
+   "sleeve": "meanrev",
+   "train_days": 1163,
+   "train_sharpe": 0.7745815887563102
+  },
+  {
+   "bucket": "mid_vol",
+   "sleeve": "trend",
+   "train_days": 1763,
+   "train_sharpe": 0.923014947224577
+  },
+  {
+   "bucket": "mid_vol",
+   "sleeve": "meanrev",
+   "train_days": 1763,
+   "train_sharpe": -0.07762694438642684
+  },
+  {
+   "bucket": "high_vol",
+   "sleeve": "trend",
+   "train_days": 440,
+   "train_sharpe": -0.42693303771994406
+  },
+  {
+   "bucket": "high_vol",
+   "sleeve": "meanrev",
+   "train_days": 440,
+   "train_sharpe": 0.29488077645583305
+  }
+ ],
+ "rules_train_sleeve_table": [
+  {
+   "bucket": "lowvol_up",
+   "sleeve": "trend",
+   "train_days": 1019,
+   "train_sharpe": 0.4041708866707288
+  },
+  {
+   "bucket": "lowvol_up",
+   "sleeve": "meanrev",
+   "train_days": 1019,
+   "train_sharpe": 0.9898184046000772
+  },
+  {
+   "bucket": "lowvol_down",
+   "sleeve": "trend",
+   "train_days": 104,
+   "train_sharpe": -0.4792208185148101
+  },
+  {
+   "bucket": "lowvol_down",
+   "sleeve": "meanrev",
+   "train_days": 104,
+   "train_sharpe": -0.24689147437392842
+  },
+  {
+   "bucket": "midvol_up",
+   "sleeve": "trend",
+   "train_days": 788,
+   "train_sharpe": 0.2851848349184646
+  },
+  {
+   "bucket": "midvol_up",
+   "sleeve": "meanrev",
+   "train_days": 788,
+   "train_sharpe": -0.5702894532968014
+  },
+  {
+   "bucket": "midvol_down",
+   "sleeve": "trend",
+   "train_days": 332,
+   "train_sharpe": 0.7249059501067889
+  },
+  {
+   "bucket": "midvol_down",
+   "sleeve": "meanrev",
+   "train_days": 332,
+   "train_sharpe": 0.5651408218368777
+  },
+  {
+   "bucket": "highvol_up",
+   "sleeve": "trend",
+   "train_days": 373,
+   "train_sharpe": 1.2457086272953353
+  },
+  {
+   "bucket": "highvol_up",
+   "sleeve": "meanrev",
+   "train_days": 373,
+   "train_sharpe": -0.18463043332677195
+  },
+  {
+   "bucket": "highvol_down",
+   "sleeve": "trend",
+   "train_days": 750,
+   "train_sharpe": 0.092225388781403
+  },
+  {
+   "bucket": "highvol_down",
+   "sleeve": "meanrev",
+   "train_days": 750,
+   "train_sharpe": 0.22194576528998738
+  }
+ ],
+ "hmm_switch_train_sharpe": 0.6905330901409285
+}
